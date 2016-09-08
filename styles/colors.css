@@ -1,0 +1,22 @@
+[data-color='cyan'] {
+	background: #00BCD4;
+	color: #000;
+}
+
+[data-color='teal'] {
+	background: #009688;
+	color: #FFF;
+}
+
+[data-color='green'] {
+	background: #4CAF50;
+	color: #000;
+}
+
+label[for='nav-toggle'][data-color='white'] {
+	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z' fill='%23FFF'/%3E%3C/svg%3E") center/24px no-repeat;
+}
+
+label[for='nav-toggle'][data-color='black'] {
+	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z' fill='%23000'/%3E%3C/svg%3E") center/24px no-repeat;
+}
